@@ -1,0 +1,20 @@
+insert
+
+insert into 表名(列名,列名....) values(值,值...)
+
+delete 
+delete from 表名 where condition
+
+
+update
+
+update 表名 set 列名=值,列名=值 where bid='$bid'
+
+select
+
+select * from blog
+select count(*) from blog 
+select * from blog where bid='$bid'
+
+blog(bid,title,time,content,hits,cid)
+catalog(cid,cname)
